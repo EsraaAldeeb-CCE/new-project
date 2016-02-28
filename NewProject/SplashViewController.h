@@ -10,4 +10,7 @@
 
 @interface SplashViewController : ViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imgBackground;
+
+@property (weak, nonatomic) IBOutlet UIImageView *imgLogo;
 @end

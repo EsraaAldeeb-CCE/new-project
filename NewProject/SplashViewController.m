@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self performSelector:@selector(goToLogInScreen) withObject:nil afterDelay:3];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,6 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)goToLogInScreen{
+    
+    [self performSegueWithIdentifier:@"loginScreen" sender:self];
+
+}
 /*
 #pragma mark - Navigation
 
