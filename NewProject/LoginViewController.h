@@ -10,4 +10,6 @@
 
 @interface LoginViewController : ViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *lblLogin;
+
 @end
