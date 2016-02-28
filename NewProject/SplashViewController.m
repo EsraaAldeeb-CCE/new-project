@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"log message from qisaay branch");
     // Do any additional setup after loading the view.
 }
 

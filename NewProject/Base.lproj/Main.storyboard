@@ -35,8 +35,26 @@
                     <view key="view" contentMode="scaleToFill" id="wsZ-im-NKL">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vuw-GD-mda">
+                                <rect key="frame" x="132" y="194" width="313" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rF4-4O-aFX">
+                                <rect key="frame" x="265" y="285" width="46" height="30"/>
+                                <state key="normal" title="login"/>
+                                <connections>
+                                    <action selector="loginPressed:" destination="wN4-bq-4F2" eventType="touchUpInside" id="evS-sf-V0O"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="lblLogin" destination="vuw-GD-mda" id="v2K-Hb-0Gc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E5g-Hs-xqQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
