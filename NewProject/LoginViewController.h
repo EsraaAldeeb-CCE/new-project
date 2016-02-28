@@ -9,6 +9,10 @@
 #import "ViewController.h"
 
 @interface LoginViewController : ViewController
+@property (weak, nonatomic) IBOutlet UIButton *btnLogin;
+- (IBAction)loginPressed:(id)sender;
+
+
 
 @property (weak, nonatomic) IBOutlet UILabel *lblLogin;
 

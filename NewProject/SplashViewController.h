@@ -10,4 +10,9 @@
 
 @interface SplashViewController : ViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *btnSplash;
+
+- (IBAction)splashPressed:(id)sender;
+
+
 @end

@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"first comment from esraa Branch in login ViewController");
+    NSLog(@"hi");
     // Do any additional setup after loading the view.
     
 }
@@ -36,4 +37,7 @@
 }
 */
 
+- (IBAction)loginPressed:(id)sender {
+    NSLog(@"login Pressed qissay branch");
+}
 @end
