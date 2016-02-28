@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"SplashScreen");
     [self performSelector:@selector(goToLogInScreen) withObject:nil afterDelay:3];
 }
 
