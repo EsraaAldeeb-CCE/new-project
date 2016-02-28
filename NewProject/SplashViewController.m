@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"first comment from qissay Branch in splash ViewController");
+    NSLog(@"second comment from qissay Branch in splash ViewController");
+
+
     // Do any additional setup after loading the view.
 }
 
@@ -34,4 +38,6 @@
 }
 */
 
+- (IBAction)splashPressed:(id)sender {
+}
 @end
