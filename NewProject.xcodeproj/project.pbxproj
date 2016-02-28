@@ -18,6 +18,7 @@
 		D36E89191C82E61D00413A47 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E89181C82E61D00413A47 /* SplashViewController.m */; };
 		D36E891E1C82E66E00413A47 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E891D1C82E66E00413A47 /* LoginViewController.m */; };
 		D36E89221C82E6CC00413A47 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E89211C82E6CC00413A47 /* InboxViewController.m */; };
+		D39D98721C832FD500577DF8 /* Screen Shot 2016-02-28 at 9.02.07 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = D39D98711C832FD500577DF8 /* Screen Shot 2016-02-28 at 9.02.07 AM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		D36E891D1C82E66E00413A47 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		D36E89201C82E6CC00413A47 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
 		D36E89211C82E6CC00413A47 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		D39D98711C832FD500577DF8 /* Screen Shot 2016-02-28 at 9.02.07 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-02-28 at 9.02.07 AM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				D36E88EA1C82E58200413A47 /* ViewController.h */,
 				D36E88EB1C82E58200413A47 /* ViewController.m */,
 				D36E88ED1C82E58200413A47 /* Main.storyboard */,
+				D39D98711C832FD500577DF8 /* Screen Shot 2016-02-28 at 9.02.07 AM.png */,
 				D36E88F01C82E58300413A47 /* Assets.xcassets */,
 				D36E88F21C82E58300413A47 /* LaunchScreen.storyboard */,
 				D36E88F51C82E58300413A47 /* Info.plist */,
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36E88F41C82E58300413A47 /* LaunchScreen.storyboard in Resources */,
+				D39D98721C832FD500577DF8 /* Screen Shot 2016-02-28 at 9.02.07 AM.png in Resources */,
 				D36E88F11C82E58300413A47 /* Assets.xcassets in Resources */,
 				D36E88EF1C82E58200413A47 /* Main.storyboard in Resources */,
 			);
@@ -540,6 +544,7 @@
 				D36E89101C82E58300413A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D36E89111C82E58300413A47 /* Build configuration list for PBXNativeTarget "NewProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +553,7 @@
 				D36E89131C82E58300413A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D36E89141C82E58300413A47 /* Build configuration list for PBXNativeTarget "NewProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +562,7 @@
 				D36E89161C82E58300413A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
