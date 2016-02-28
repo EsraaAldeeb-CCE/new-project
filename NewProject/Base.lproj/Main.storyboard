@@ -71,6 +71,15 @@
                     <view key="view" contentMode="scaleToFill" id="lB2-Gy-ztz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ene-uf-JTG">
+                                <rect key="frame" x="159" y="198" width="46" height="30"/>
+                                <state key="normal" title="inbox"/>
+                                <connections>
+                                    <action selector="inboxPressed:" destination="W8x-7g-e9y" eventType="touchUpInside" id="JbA-9N-FPu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>

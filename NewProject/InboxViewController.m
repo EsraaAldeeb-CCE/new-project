@@ -23,6 +23,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(void)test{
+
+}
 
 /*
 #pragma mark - Navigation
@@ -34,4 +37,6 @@
 }
 */
 
+- (IBAction)inboxPressed:(id)sender {
+}
 @end

@@ -9,5 +9,6 @@
 #import "ViewController.h"
 
 @interface InboxViewController : ViewController
+- (IBAction)inboxPressed:(id)sender;
 
 @end
