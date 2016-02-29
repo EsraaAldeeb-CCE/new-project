@@ -1,24 +1,22 @@
 //
-//  LoginViewController.m
+//  ParkingViewController.m
 //  NewProject
 //
-//  Created by Esraa Aldeeb on 2/28/16.
+//  Created by Esraa Aldeeb on 2/29/16.
 //  Copyright © 2016 Esraa Aldeeb. All rights reserved.
 //
 
-#import "LoginViewController.h"
+#import "ParkingViewController.h"
 
-@interface LoginViewController ()
+@interface ParkingViewController ()
 
 @end
 
-@implementation LoginViewController
+@implementation ParkingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"login log message in developer 1 branch");
-
 }
 
 - (void)didReceiveMemoryWarning {

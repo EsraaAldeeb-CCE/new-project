@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"splash log message in developer 1 branch");
 }
 
 - (void)didReceiveMemoryWarning {

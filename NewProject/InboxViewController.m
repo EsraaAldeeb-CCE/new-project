@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"inbox log message in developer 1 branch");
     // Do any additional setup after loading the view.
 }
 

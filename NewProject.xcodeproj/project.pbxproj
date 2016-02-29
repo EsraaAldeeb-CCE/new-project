@@ -18,6 +18,7 @@
 		D36E89191C82E61D00413A47 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E89181C82E61D00413A47 /* SplashViewController.m */; };
 		D36E891E1C82E66E00413A47 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E891D1C82E66E00413A47 /* LoginViewController.m */; };
 		D36E89221C82E6CC00413A47 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36E89211C82E6CC00413A47 /* InboxViewController.m */; };
+		D39D98751C84776B00577DF8 /* ParkingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D39D98741C84776B00577DF8 /* ParkingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		D36E891D1C82E66E00413A47 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		D36E89201C82E6CC00413A47 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
 		D36E89211C82E6CC00413A47 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		D39D98731C84776B00577DF8 /* ParkingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkingViewController.h; sourceTree = "<group>"; };
+		D39D98741C84776B00577DF8 /* ParkingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 		D36E88E31C82E58200413A47 /* NewProject */ = {
 			isa = PBXGroup;
 			children = (
+				D39D98761C84776F00577DF8 /* Parking View controller */,
 				D36E891F1C82E69D00413A47 /* InboxViewController */,
 				D36E891B1C82E64A00413A47 /* LoginViewContoller */,
 				D36E891A1C82E62C00413A47 /* SplashViewController */,
@@ -177,6 +181,15 @@
 				D36E89211C82E6CC00413A47 /* InboxViewController.m */,
 			);
 			name = InboxViewController;
+			sourceTree = "<group>";
+		};
+		D39D98761C84776F00577DF8 /* Parking View controller */ = {
+			isa = PBXGroup;
+			children = (
+				D39D98731C84776B00577DF8 /* ParkingViewController.h */,
+				D39D98741C84776B00577DF8 /* ParkingViewController.m */,
+			);
+			name = "Parking View controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +325,7 @@
 				D36E88EC1C82E58200413A47 /* ViewController.m in Sources */,
 				D36E88E91C82E58200413A47 /* AppDelegate.m in Sources */,
 				D36E88E61C82E58200413A47 /* main.m in Sources */,
+				D39D98751C84776B00577DF8 /* ParkingViewController.m in Sources */,
 				D36E89191C82E61D00413A47 /* SplashViewController.m in Sources */,
 				D36E891E1C82E66E00413A47 /* LoginViewController.m in Sources */,
 				D36E89221C82E6CC00413A47 /* InboxViewController.m in Sources */,
@@ -540,6 +554,7 @@
 				D36E89101C82E58300413A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D36E89111C82E58300413A47 /* Build configuration list for PBXNativeTarget "NewProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +563,7 @@
 				D36E89131C82E58300413A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D36E89141C82E58300413A47 /* Build configuration list for PBXNativeTarget "NewProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +572,7 @@
 				D36E89161C82E58300413A47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
